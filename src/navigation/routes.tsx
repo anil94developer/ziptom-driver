@@ -1,0 +1,25 @@
+export enum Routes { 
+    Login = 'Login',
+    PersonalDetails='PersonalDetails',
+    ProfileDetails="ProfileDetails",
+    MainApp = 'MainApp',
+    EarningsScreen="EarningsScreen",
+    RestaurantDetails = 'RestaurantDetails',
+    Withdraw = 'Withdraw',
+    Notification="Notification",
+    SOSScreen = 'SOSScreen', 
+    MyOrders = 'MyOrders',
+    
+    Profile = 'Profile',
+    EditProfile="EditProfile",
+    OrderDetails="OrderDetails",
+    OrderTracking="OrderTracking",
+    CartScreen="CartScreen",
+    Settings = 'Settings',
+    About = 'About',
+    Contact = 'Contact',
+    Help = 'Help',
+    Terms = 'Terms',
+    Privacy = 'Privacy',
+    // Add more routes as needed
+}

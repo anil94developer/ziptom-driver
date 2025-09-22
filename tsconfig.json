@@ -1,4 +1,12 @@
+ 
 {
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
   "extends": "@react-native/typescript-config",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/Pods"]
